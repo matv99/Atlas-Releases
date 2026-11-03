@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "published_at": "2026-11-03T13:36:58+00:00",
+  "notes": "## New features\nThe first release of Atlas, the ground-up rebuild of AtlasPro.\n\n**Map**\n- OS MasterMap through the OS Vector Tile API, from street to building detail.\n- Light and dark themes, each in colour or true greyscale (recoloured in the map style, so text stays sharp and exports get real greys).\n- AURIS north arrow and scale bar (the same distance rules, tested against AURIS), live BNG grid, and a coordinate readout with grid reference.\n- Search places, roads, postcodes, grid references, eastings/northings and latitude/longitude.\n\n**Inspect**\n- Hold Shift or Alt over a building for its address, height and storeys, true footprint and perimeter, TOID, grid reference and council. Shift-click pins it, with copy actions, the planning search and the council website.\n- Right-click for what's here, the planning search, copying coordinates, or measuring or labelling from the point.\n\n**Draw and annotate**\n- Lines, areas, measurements (segment, total and area labels), labels with backplates and callouts, and distance rings.\n- Snapping to MasterMap corners and edges, a 15\u00b0 angle constraint, vertex editing, undo and redo, the clipboard and a selection bar.\n\n**Projects**\n- `.atlas` project files; AtlasPro `.lcs` files import with their drawings, labels and contours.\n- Autosave with crash recovery, an unsaved-changes guard, recent projects, drag and drop, and opening from Finder.\n\n**Export**\n- Print layouts from A4 to A1, at a fixed scale or fitted, at 150 or 300 dpi: neatline with BNG values, grid, north arrow, scale bar and title. PNG (with DPI), PDF at paper size, or the clipboard. Always light styling.\n- Copy Map Image frames the capture on the map, glides the north arrow and scale bar into its corners and copies a 300 dpi image sized to fill the text width of landscape A4. Save Map Image (\u2318\u21e7E) saves straight to your export folder. Both buttons show when they are working and when they are done.\n- 3D site models: a clay architectural view with soft shadows, ambient occlusion and tilt-shift; stills; DAE, OBJ, 3D DXF and SoundPLAN packages in British National Grid coordinates.\n\n**Window**\n- The map runs to the top of the window, with a soft progressive blur behind the window buttons in place of a title bar, and a compact, centred toolbar with desktop-sized controls on one alignment grid.\n\n**Updates**\n- Atlas keeps itself up to date. It checks in the background, downloads and verifies new versions, and installs them when you quit or choose Restart to Update. Help \u203a Check for Updates checks now, and Preferences \u203a Updates has the settings.\n- Help \u203a What's New shows these notes.\n- A new app icon, made to sit beside AURIS in the Dock.",
+  "history": [],
+  "downloads": {
+    "macos": {
+      "url": "https://github.com/matv99/Atlas-Releases/releases/download/v0.1.0/Atlas-macOS-0.1.0.dmg",
+      "sha256": "77a2506f9fe4d1d557f24795445c203f4bb9165b053af7dadad73e427806cfa5",
+      "size_bytes": 233937645
+    },
+    "windows": {
+      "url": ""
+    }
+  }
+}
