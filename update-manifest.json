@@ -1,8 +1,12 @@
 {
-  "version": "0.2.2",
-  "published_at": "2026-11-10T22:46:36+00:00",
-  "notes": "## Bug fixes\n- The co-ordinate neatline on exports and quick copies is slim again, matching AURIS: a narrower white margin, finer co-ordinate figures centred in it, and a lighter frame and ticks.",
+  "version": "0.2.3",
+  "published_at": "2026-11-22T13:13:08+00:00",
+  "notes": "## Bug fixes\n- The map no longer goes blank when the OS Data Hub limits requests. Tiles that OS turns away now wait and fill in, rather than leaving empty areas until you pan.\n- Searching for a place far away no longer uses up the OS request allowance on the way there. Atlas now fetches only the map where you land.\n- Atlas works out your OS project's request limit and keeps under it, so the \"OS is limiting requests\" warning should appear rarely, if at all.\n- While OS is limiting requests, areas you've viewed in the past week show at once from Atlas's own copy instead of staying blank.",
   "history": [
+    {
+      "version": "0.2.2",
+      "notes": "## Bug fixes\n- The co-ordinate neatline on exports and quick copies is slim again, matching AURIS: a narrower white margin, finer co-ordinate figures centred in it, and a lighter frame and ticks."
+    },
     {
       "version": "0.2.1",
       "notes": "## Changes\n- The app icon now matches AURIS more closely in the Dock: a rounded-square glass lens, squares that reach as far as AURIS's rings, and a slightly heavier glass line so the two read at the same weight. The ATLAS logo follows it.\n- The north dial is smaller again, still centred on the toolbar."
@@ -18,9 +22,9 @@
   ],
   "downloads": {
     "macos": {
-      "url": "https://github.com/matv99/Atlas-Releases/releases/download/v0.2.2/Atlas-macOS-0.2.2.dmg",
-      "sha256": "6e9cacbfb7807bfed701ca85337b852d71303e91717a633d7c9fd556a46021b1",
-      "size_bytes": 235970341
+      "url": "https://github.com/matv99/Atlas-Releases/releases/download/v0.2.3/Atlas-macOS-0.2.3.dmg",
+      "sha256": "f28fd58b041bc03f354c5e99dcaa40a137efa5f10b43de925ab45344a301fb1e",
+      "size_bytes": 237927088
     },
     "windows": {
       "url": ""
